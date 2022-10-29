@@ -97,7 +97,7 @@
             <div id="prods"></div>
 
             <div class="more_prods">
-                <button type="button" onclick="fetchApiData(2)">Ainda mais produtos</button>
+                <button class="btn_more_prods" type="button" onclick="fetchApiData(2)">Ainda mais produtos</button>
             </div>
 
         </div>
@@ -117,21 +117,21 @@
             </div>
 
             <div class="share-box">
-                <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+                <p class="share_tittle">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
 
                 <form class="share">
                     <div class="share_inputs">
                         <div>
                             <label for="nome_share">Nome do seu amigo</label>
-                            <input type="text" name="nome_share" id="nome">
+                            <input class="inpu" type="text" name="nome_share" id="nome">
                         </div>
                         <div>
                             <label for="email_share">E-mail do seu amigo</label>
-                            <input type="email" name="email_share" id="email">
+                            <input class="inpu" type="email" name="email_share" id="email">
                         </div>
                     </div>
-                    <div class="btn_submit">
-                        <input type="submit"  value="Envie agora"></input>
+                    <div class="btn_submit_box">
+                        <input type="submit" class="btn_submit" value="Envie agora"></input>
                     </div>
                 </form>
             </div>
@@ -145,14 +145,12 @@
     <footer>
         <br><br><br><br><br><br>
         <div>
-            Testando suas habilidades em HTML, CSS e JS.
+            Projeto com api de produtos usando HTML, CSS e JS.
         </div>
         <div>
-            Linx Impulse
+            Bruno Ferreira
         </div>
-        <div>
-            2019
-        </div>
+        
     </footer>
     <script src="main.js"></script>
 </body> 
