@@ -315,6 +315,7 @@ a {
 .prod_pic {
     
     width: 75%;
+    max-width: 60%;
     border-radius: 20px;
     border: #ffffff 3px solid;
     padding: 8px;
@@ -413,7 +414,7 @@ a {
 .share_inputs {
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -488,6 +489,94 @@ footer {
 
 }
 
+@media (max-width: 1230px) {
+    .tittle02 {
+        text-align: center;
+        width: 100%;
+        font-size: 7rem;
+        padding: 3rem 0 0 0;
+    }
+
+    .tittle03 {
+        padding: 2.2rem 0 0 0;   
+        
+    }
+
+    .button-box {
+        padding: 1.6rem 0 0 0;
+    }
+
+    .sec-01 {
+        width: 85%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .inpu {
+        width: inherit;
+        height: 40px;
+        margin-bottom: 10px;
+        
+    }
+
+    .algo {
+        
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .sec-02 {
+        width: 90%;
+    
+        
+    }
+
+
+
+
+
+    #prods {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(3, minmax(220px, 2fr));
+        justify-items: center;
+    }
+
+    .prod_card {
+        width: 95%;
+        height: 400px;
+        
+    }
+
+    .sec-03 {
+        width: 90%;
+    }
+
+    .share_tittle {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .share-box {
+        padding: 2rem;
+        
+        
+    }
+
+    .box_share_inputs {
+        
+        flex-direction: column;
+    }
+
+    .share_inputs {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+}
+
 @media (max-width: 960px) {
 
     body {
@@ -495,15 +584,18 @@ footer {
     }
 
     .tittle02 {
-        font-size: 60px;
-        padding: 3rem 0 3rem 0;
+        text-align: center;
+        width: 100%;
+        font-size: 5rem;
+        padding: 3rem 0 0 0;
     }
 
-    h2.tittle03 {
+    .tittle03 {
+        padding: 2rem 0 0 0;   
         
-        display: flex;
     }
     .button-box {
+        padding: 2rem 0 0 0;
         width: 100%;
     }
 
